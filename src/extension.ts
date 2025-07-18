@@ -83,6 +83,31 @@ export function activate(context: vscode.ExtensionContext) {
 					res.end('Internal error: ' + e);
 				}
 			});
+		} else if (req.method === 'POST' && req.url === '/signatureHelp') {
+			let body = '';
+			req.on('data', chunk => { body += chunk; });
+			req.on('end', async () => {
+				try {
+					const data = JSON.parse(body);
+					if (!data.uri || typeof data.line !== 'number' || typeof data.character !== 'number') {
+						res.writeHead(400);
+						res.end('Missing or invalid parameters');
+						return;
+					}
+					const uri = vscode.Uri.file(data.uri);
+					const position = new vscode.Position(data.line, data.character);
+					const signatureHelp = await vscode.commands.executeCommand<vscode.SignatureHelp>(
+						'vscode.executeSignatureHelpProvider',
+						uri,
+						position
+					);
+					res.writeHead(200, { 'Content-Type': 'application/json' });
+					res.end(JSON.stringify(signatureHelp));
+				} catch (e) {
+					res.writeHead(500);
+					res.end('Internal error: ' + e);
+				}
+			});
 		} else {
 			res.writeHead(404);
 			res.end();

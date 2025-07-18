@@ -1,0 +1,26 @@
+{
+    "activeSignature": 0,
+    "activeParameter": 0,
+    "signatures": [
+        {
+            "label": "logDefinitionInfo(document: any, definitions: any): void",
+            "documentation": {},
+            "parameters": [
+                {
+                    "label": [
+                        18,
+                        31
+                    ],
+                    "documentation": {}
+                },
+                {
+                    "label": [
+                        33,
+                        49
+                    ],
+                    "documentation": {}
+                }
+            ]
+        }
+    ]
+}
