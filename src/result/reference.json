@@ -1,0 +1,12 @@
+[
+    {
+        "uri": {
+            "$mid": 1,
+            "fsPath": "/Users/feiyu/Desktop/code/vscode_plugin/mock_vscode_plugin/out/extension.js",
+            "external": "file:///Users/feiyu/Desktop/code/vscode_plugin/mock_vscode_plugin/out/extension.js",
+            "path": "/Users/feiyu/Desktop/code/vscode_plugin/mock_vscode_plugin/out/extension.js",
+            "scheme": "file"
+        },
+        "range": [{"line": 25, "character": 14}, {"line": 25, "character": 31}]
+    }
+]

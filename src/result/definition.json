@@ -1,0 +1,41 @@
+[
+    {
+        "targetUri": {
+            "$mid": 1,
+            "fsPath": "/Users/feiyu/Desktop/code/vscode_plugin/mock_vscode_plugin/out/extension.js",
+            "external": "file:///Users/feiyu/Desktop/code/vscode_plugin/mock_vscode_plugin/out/extension.js",
+            "path": "/Users/feiyu/Desktop/code/vscode_plugin/mock_vscode_plugin/out/extension.js",
+            "scheme": "file"
+        },
+        "targetRange": [
+            {
+                "line": 110,
+                "character": 0
+            },
+            {
+                "line": 141,
+                "character": 1
+            }
+        ],
+        "targetSelectionRange": [
+            {
+                "line": 110,
+                "character": 15
+            },
+            {
+                "line": 110,
+                "character": 32
+            }
+        ],
+        "originSelectionRange": [
+            {
+                "line": 25,
+                "character": 14
+            },
+            {
+                "line": 25,
+                "character": 31
+            }
+        ]
+    }
+]
