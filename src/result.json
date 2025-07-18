@@ -1,0 +1,17 @@
+[
+    {
+        "uri": {
+            "$mid": 1, 
+            "fsPath": "/Users/feiyu/Desktop/code/vscode-extension-samples/helloworld-sample/out/extension.js", 
+            "external": "file:///Users/feiyu/Desktop/code/vscode-extension-samples/helloworld-sample/out/extension.js", 
+            "path": "/Users/feiyu/Desktop/code/vscode-extension-samples/helloworld-sample/out/extension.js", 
+            "scheme": "file"
+        }, 
+        "range": [{"line": 25, "character": 14}, {"line": 25, "character": 31}]
+    }, 
+    {"uri": {"$mid": 1, "fsPath": "/Users/feiyu/Desktop/code/vscode-extension-samples/helloworld-sample/out/extension.js", 
+    "external": "file:///Users/feiyu/Desktop/code/vscode-extension-samples/helloworld-sample/out/extension.js", 
+    "path": "/Users/feiyu/Desktop/code/vscode-extension-samples/helloworld-sample/out/extension.js", 
+    "scheme": "file"}, 
+    "range": [{"line": 87, "character": 15}, {"line": 87, "character": 32}]}
+]
