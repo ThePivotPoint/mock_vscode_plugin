@@ -1,0 +1,41 @@
+[
+    {
+        "targetUri": {
+            "$mid": 1,
+            "fsPath": "/Users/feiyu/Desktop/type-challenges~type-challenges/scripts/types.ts",
+            "external": "file:///Users/feiyu/Desktop/type-challenges~type-challenges/scripts/types.ts",
+            "path": "/Users/feiyu/Desktop/type-challenges~type-challenges/scripts/types.ts",
+            "scheme": "file"
+        },
+        "targetRange": [
+            {
+                "line": 25,
+                "character": 0
+            },
+            {
+                "line": 37,
+                "character": 1
+            }
+        ],
+        "targetSelectionRange": [
+            {
+                "line": 25,
+                "character": 17
+            },
+            {
+                "line": 25,
+                "character": 21
+            }
+        ],
+        "originSelectionRange": [
+            {
+                "line": 1,
+                "character": 14
+            },
+            {
+                "line": 1,
+                "character": 18
+            }
+        ]
+    }
+]
